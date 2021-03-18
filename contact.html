@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Details</title>
+  </head>
+  <body>
+    <h1>Contact Details</h1>
+    <ul>
+      <li>Phone: 036 494 939</li>
+      <li>Email: yousser.amhal@gmail.com</li>
+      <li>Address: Gueliz, Marrakech, Morocco</li>
+    </ul>
+    <hr />
+    <h3>Contact Me Form</h3>
+    <form action="mailto:yousser.amhal@gmail.com" enctype="text/plain" method="POST">
+      <table>
+        <tbody>
+          <tr>
+            <td>
+              <label for="">Your Name: </label>
+              <input type="text" name="yourName"/><br />
+            </td>
+            <td>
+              <label for="">Email: </label>
+              <input type="email" name="yourEmail"/><br />
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              <label for="">Message: </label><br />
+              <textarea name="yourMessage" id="" cols="60" rows="10"></textarea>
+            </td>
+          </tr>
+          <tr>
+              <td><input type="submit"></td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <caption align="bottom">
+            Please fill all the requested information.
+          </caption>
+        </tfoot>
+      </table>
+    </form>
+  </body>
+</html>

@@ -4,90 +4,80 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Yousser's Personal Site</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Merriweather:wght@300&family=Montserrat&family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="icon" href="favicon.ico" />
+    <title>A. Yousser</title>
   </head>
   <body>
-    <table cellspacing="20">
-      <tr>
-        <td>
-          <img src="images/profile-pic.png" alt="Profile Picture" height="200" />
-        </td>
-        <td>
-          <h1>Yousser AMHAL</h1>
-          <p>
-            Teacher and
-            <em
-              ><strong><a href="https://www.yaprog.com">Developer</a></strong></em
-            >
+    <div class="top-container">
+      <img src="images/cloud.png" alt="cloud-png" class="top-cloud" />
+      <h1>I'm Yousser.</h1>
+      <h2>a <span id="pro">pro</span>grammer.</h2>
+      <img src="images/cloud.png" alt="cloud-png" class="bottom-cloud" />
+      <img src="images/mountain.png" alt="mountain-png" />
+    </div>
+    <div class="middle-container">
+      <div class="profile">
+        <img
+          src="https://www.flaticon.com/svg/vstatic/svg/3011/3011270.svg?token=exp=1616271620~hmac=926625bb1303416ad208334b502cb728"
+          alt="profile-icon"
+          class = "profile-pic"
+        />
+        <h2>Hello.</h2>
+        <p>
+          Lorem ipsum dolor sit amet, vitae volutpat, dui conubia, dolor urna. Non auctor, montes
+          nulla distinctio.
+        </p>
+      </div>
+      <hr />
+      <div class="skills">
+        <h2>My Skills.</h2>
+        <div class="skill-row">
+          <img
+            class="thinking-img"
+            src="https://www.flaticon.com/svg/vstatic/svg/2830/2830919.svg?token=exp=1616233789~hmac=2e1fbbc2cbf107af5db59238bd9169dd"
+            alt="skills-icon"
+          />
+          <h3>Thinking</h3>
+          <p class="thinking-txt">
+            Lorem ipsum dolor sit amet, quis in duis, iaculis id felis. Consectetuer vestibulum,
+            nunc urna lectus, erat ligula. Hendrerit nam, lectus ante, ut lorem eros.
           </p>
-          <p>
-            My name is Mr. Yousser, I love teaching and developing. I am currently learning web
-            development from scratch.
+        </div>
+        <div class="skill-row">
+          <img
+            class="teaching-img"
+            src="https://www.flaticon.com/svg/vstatic/svg/2830/2830930.svg?token=exp=1616233789~hmac=8189c9203923783e68cfc9207fbbb2eb"
+            alt="science-icon"
+          />
+          <h3>Teaching</h3>
+          <p class="teaching-txt">
+            Lorem ipsum dolor sit amet, mauris sed consectetuer. Etiam et eu, bibendum interdum,
+            lacus quis mauris. Curabitur wisi, quisque vel eu, rutrum nam.
           </p>
-          <p>
-            My contact details are available
-            <a href="contact.html" target="_blank">here!</a>
-          </p>
-        </td>
-      </tr>
-    </table>
+        </div>
+      </div>
+      <hr />
+      <div class="contact-me">
+        <h2>Get In Touch</h2>
+        <h3>Lorem ipsum dolor sit amet, non elit.</h3>
+        <p>
+          Lorem ipsum dolor sit amet, in quis, aenean amet. Phasellus sodales, tellus donec dui,
+          ornare erat.
+        </p>
+        <a class="btn" type="button" href="mailto:yousser.amhal@gmail.com">CONTACT ME</a>
+      </div>
+    </div>
 
-    <hr>
-    <h3>Education</h3>
-    <ul>
-      <li>Ecole Polytechnique</li>
-      <li>Newcastle University</li>
-      <li>The American School of Marrakech</li>
-    </ul>
-    <h3>Experience</h3>
-    <table cellspacing="10">
-      <thead>
-        <tr>
-          <th>Dates</th>
-          <th>Work</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>2017-Present</td>
-          <td>Thinking Words Academy</td>
-        </tr>
-        <tr>
-          <td>2012-2017</td>
-          <td>Cryptocurrency Trader</td>
-        </tr>
-      </tbody>
-    </table>
-    <h3>Skills</h3>
-    <table border="1">
-      <tr>
-        <td>
-          <table cellspacing="10">
-            <tr>
-              <td>HTML</td>
-              <td>⭐⭐⭐⭐</td>
-            </tr>
-            <tr>
-              <td>JAVA</td>
-              <td>⭐⭐</td>
-            </tr>
-          </table>
-        </td>
-        <td>
-          <table cellspacing="10">
-            <tr>
-              <td>HTML</td>
-              <td>⭐⭐⭐⭐</td>
-            </tr>
-            <tr>
-              <td>JAVA</td>
-              <td>⭐⭐</td>
-            </tr>
-          </table>
-        </td>
-      </tr>
-    </table>
-    <hr>
-    <h3><a href="hobbies.html">Hobbies</a></h3>
+    <div class="bottom-container">
+      <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
+      <a class="footer-link" href="https://twitter.com/">Twitter</a>
+      <a class="footer-link" href="https://www.yaprog.com">Website</a>
+      <p class="copyright-text">© 2018 Yousser Amhal.</p>
+    </div>
   </body>
 </html>
